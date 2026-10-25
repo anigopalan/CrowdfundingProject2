@@ -1,0 +1,12 @@
+﻿Crowdfunding campaign data,,
+cid,Campaign ID,Notes
+pre_order_perk,Whether the campaign promises a product,Many crowdfunding campaigns promise to provide actual products in return for early investment. 
+amt_goal,Goal amount for campaign,Dollar amount advertised by crowdfunding campaign teams for the targeted investment amount. 
+frac_raised,Fraction of goal raised,Fraction of goal investment amount raised in crowdfunding campaign.
+tech_campaign,Technology campaign,Whether the campaign is for a technology product.
+sbiz_campaign,Small business campaign,Whether the campaign is for a small business
+fixed_fund,Fixed funding campaign - only raises when goal is met,Founders are only paid the investment dollars if the target goal of the campaign is raised (at least)
+state,State,State of team raising capital
+year_start,Campaign start year,Start year of campaign
+iot_plus,"Product, if being funded, is an IoT or connected device","Internet of things devices are those that connect to the web or to a phone - e.g., fitbit."
+delivery,Product was delivered,Whether the product was eventually delivered.
