@@ -9,6 +9,7 @@ code for crowdfunding project
 | --- | --- |
 | `Crowdfunding campaign.xlsx` | Raw data (`Sheet1`) and data dictionary (`Sheet2`) |
 | `clean.py` | Reproducible cleaning: `python3 clean.py` (needs `pandas`, `numpy`, `openpyxl`) |
+| `random_forest.py` | Random forest with nested CV tuning: `python3 random_forest.py` (needs `scikit-learn`; ~6.5 min) |
 | `crowdfunding_clean.csv` | Model-ready output: 224 campaigns x 11 columns |
 
 ## Cleaning methodology
