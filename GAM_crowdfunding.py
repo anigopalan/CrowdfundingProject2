@@ -92,7 +92,7 @@ class PGAM:
         se = np.sqrt(np.einsum("ij,jk,ik->i", B, V, B))
         return B @ self.coef_[a:b] - ft.mean(), 1.96 * se
 
-# test comment dont worry abt this comment
+
 # =====================================================================
 # PART 1 - LOAD & CLEAN DATA
 # =====================================================================
