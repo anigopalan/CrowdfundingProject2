@@ -34,7 +34,8 @@ from sklearn.preprocessing import SplineTransformer
 from sklearn.model_selection import RepeatedKFold
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
-DATA_PATH = "/mnt/user-data/uploads/crowdfunding_clean.csv"
+import os
+DATA_PATH = os.environ.get("DATA_PATH", "crowdfunding_clean.csv")
 OUT_DIR = "."
 
 
