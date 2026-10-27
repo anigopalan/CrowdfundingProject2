@@ -12,6 +12,8 @@ code for crowdfunding project
 | `random_forest.py` | Random forest with nested CV tuning: `python3 random_forest.py` (needs `scikit-learn`; ~6.5 min) |
 | `OLS_crowdfunding_clean.ipynb` | OLS linear regression analysis with HC3 robust standard errors, diagnostics, and 5-fold CV |
 | `crowdfunding_clean.csv` | Model-ready output: 224 campaigns x 11 columns |
+| `all_models.py` | All four models' code in one file, run on a single shared `clean.py` output: `python3 all_models.py` (or a subset, e.g. `python3 all_models.py ols gam`) |
+| `technical_docs/` | Answers to the assignment questions and a glossary of technical terms |
 
 ## Cleaning methodology
 
